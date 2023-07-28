@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Museo";
+    src: url("https://yoursite.com/css/fonts/CustomFont-100.otf") format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Museo";
+    src: url("https://yoursite.com/css/fonts/CustomFont-300.otf") format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Museo";
+    src: url("https://yoursite.com/css/fonts/CustomFont-500.otf") format("opentype");
+    font-weight: 500;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:
+        --secondary-color:#3971B1;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+/* ----------------------- */
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #F4F4F4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 200px);
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    background-color: #E4E4E4;
+    width: 88px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a,
+.logo a {
+    color: #3C3C3C;
+    letter-spacing: 0.26px;
+
+    text-transform: uppercase;
+    font-family: "Museo", sans-serif;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menus li {
+    list-style: none;
+}
+
+.hero-section {
+    position: relative;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    /* width: 838px;
+    height: 683px; */
+}
+
+.map img {
+    /* width: 100%;
+    height: 100%; */
+    z-index: -1;
+    position: relative;
+    width: auto;
+    height: 500px;
+
+}
+
+/* .map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 50%;
+    height: auto;
+
+}
+
+.map img {
+    height: 100%;
+    width: 100%;
+
+} */
+
+.contact-banner>div {
+    /* width: calc(100% - 200px);
+    margin: auto; */
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.contact-banner h2 {
+    font-size: 36px;
+    color: #3C3C3C;
+    font-weight: 300;
+}
+
+.contact-banner p {
+    color: #646464;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 44px;
+    width: 380px;
+    margin-top: 70px;
+}
+
+.contact-banner .enquiry {
+    margin-top: 100px;
+}
+
+.contact-banner .enquiry h3 {
+    font-weight: 300;
+    font-size: 26px;
+    color: #3971B1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------footer------------ */
+.footer {
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /* height: 400px; */
+    position: relative;
+    top: 60px;
+}
+
+.footer>div {
+    width: calc(100% - 200px);
+    margin: auto;
+}
+
+.footer .widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.footer .items a {
+    letter-spacing: 0px;
+    color: #383838;
+    font-size: 14px;
+}
+
+.news-sub h5 {
+    color: #818181;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.news-sub input {
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+.sub-btn button {
+    border: none;
+    background-color: #3971B1;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.go-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.go-top p {
+    color: #383838;
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.at-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #818181;
+    padding-top: 20px;
+}
+
+.at-bottom p {
+    font-size: 14px;
+    color: #818181;
+}
